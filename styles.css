@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("snake-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  font-family: Arial, sans-serif;
+}
+
+#game-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  border-radius: 10px;
+  position: relative; /* Position relativ für das Overlay */
+  z-index: 1; /* Sicherstellen, dass es über dem Hintergrund ist */
+}
+
+#game-canvas {
+  border: 1px solid white;
+}
+
+#start-menu,
+#game-over,
+#hud {
+  color: white;
+  text-align: center;
+}
+
+button {
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
