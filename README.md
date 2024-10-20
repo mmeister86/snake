@@ -38,4 +38,4 @@ Um das Projekt lokal zu entwickeln:
 
 ## Lizenz
 
-Dieses Projekt ist unter der MIT-Lizenz lizenziert. Weitere Details finden Sie in der `LICENSE`-Datei.
+Dieses Projekt ist unter der MIT-Lizenz lizenziert. 
